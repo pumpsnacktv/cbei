@@ -20,7 +20,7 @@ while len(dq):
         nx, ny = x + i[0], y + i[1]
         if nx < 0 or ny < 0 or nx >= n or ny >= m \
             or arr[nx][ny] == '0' \
-            or visit[nx][ny] == 1:
+            or visit[nx][ny] != 0:
             continue
         visit[nx][ny] = visit[x][y] + 1
         dq.append((nx, ny))
