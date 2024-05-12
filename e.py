@@ -9,6 +9,7 @@ def d(i, s):
     if i == num:
         if s > 0:
             rarr[s] = 1
+        return
     a = arr[i]
     d(i+1, s-a)
     d(i+1, s+a)
