@@ -1,2 +1,2 @@
 # cbei
-따봉
+lil things I did while studying lol
